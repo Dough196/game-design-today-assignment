@@ -1,0 +1,110 @@
+.container {
+    max-width: 980px !important;
+    margin: 0 auto;
+}
+
+
+.btn-primary {
+    background-color: #9d4c32;
+    border-color: #9d4c32;
+}
+
+.btn-primary:hover {
+    background-color: #7a3a26;
+    border-color: #7a3a26;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    background-color: #7a3a26;
+    border-color: #7a3a26;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active {
+    background-color: #5f2c1c;
+    border-color: #5f2c1c;
+}
+
+.nav {
+    padding: 20px 0 20px 0;
+    background-color: #e65400;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-tabs li:nth-child(2):after, .nav-tabs li:nth-child(2):before {
+    content: '-------';
+    font-weight: 300;
+    color: #9f4b2d;
+}
+
+.nav-link {
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50% !important;
+    background: 0 0;
+    line-height: 36px;
+    position: relative;
+    color: #fff;
+}
+
+.nav-link b {
+    position: relative;
+    z-index: 10;
+    color: #e65400;
+}
+
+.nav-link:before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: #9f4b2d;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border: 4px solid transparent;
+    padding: 6px;
+}
+
+.nav-link:after {
+    content: '';
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.nav-item .active.nav-link {
+    background: #fff;
+    font-size: 16px;
+    line-height: 46px;
+    width: 46px;
+    height: 46px;
+}
+
+.nav-item .active.nav-link::before {
+    background: #fff;
+    border-color: #e65400;
+    width: 37px;
+    height: 37px;
+}
+
