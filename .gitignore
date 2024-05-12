@@ -1,0 +1,22 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer packages
+/vendor/
+
+# Ignore environment-specific files
+.env
+.env.example
+
+# Ignore logs and cache
+/log/
+/cache/
+
+# Ignore any generated files
+*.log
+*.zip
+*.tar.gz
+
+# Ignore database
+/database/
